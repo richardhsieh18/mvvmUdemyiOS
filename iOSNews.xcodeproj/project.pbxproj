@@ -13,6 +13,8 @@
 		04A2B6A122E5789B00E95D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A2B6A022E5789B00E95D46 /* Assets.xcassets */; };
 		04A2B6A422E5789B00E95D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A2B6A222E5789B00E95D46 /* LaunchScreen.storyboard */; };
 		04A2B6AD22E578FF00E95D46 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6AC22E578FF00E95D46 /* NewsListTableViewController.swift */; };
+		04A2B6B022E5802600E95D46 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6AF22E5802600E95D46 /* WebService.swift */; };
+		04A2B6B322E5832500E95D46 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6B222E5832500E95D46 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04A2B6A322E5789B00E95D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A2B6A522E5789B00E95D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A2B6AC22E578FF00E95D46 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		04A2B6AF22E5802600E95D46 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		04A2B6B222E5832500E95D46 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		04A2B69822E5789900E95D46 /* iOSNews */ = {
 			isa = PBXGroup;
 			children = (
+				04A2B6B122E5831500E95D46 /* Models */,
+				04A2B6AE22E5800500E95D46 /* Services */,
 				04A2B6AB22E578BB00E95D46 /* Controllers */,
 				04A2B69922E5789900E95D46 /* AppDelegate.swift */,
 				04A2B69B22E5789900E95D46 /* ViewController.swift */,
@@ -73,6 +79,22 @@
 				04A2B6AC22E578FF00E95D46 /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04A2B6AE22E5800500E95D46 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04A2B6AF22E5802600E95D46 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04A2B6B122E5831500E95D46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A2B6B222E5832500E95D46 /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +170,9 @@
 			files = (
 				04A2B69C22E5789900E95D46 /* ViewController.swift in Sources */,
 				04A2B6AD22E578FF00E95D46 /* NewsListTableViewController.swift in Sources */,
+				04A2B6B022E5802600E95D46 /* WebService.swift in Sources */,
 				04A2B69A22E5789900E95D46 /* AppDelegate.swift in Sources */,
+				04A2B6B322E5832500E95D46 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
