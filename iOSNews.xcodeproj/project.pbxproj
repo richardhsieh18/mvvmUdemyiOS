@@ -16,6 +16,7 @@
 		04A2B6B022E5802600E95D46 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6AF22E5802600E95D46 /* WebService.swift */; };
 		04A2B6B322E5832500E95D46 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6B222E5832500E95D46 /* Article.swift */; };
 		04A2B6B622E58E2D00E95D46 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6B522E58E2D00E95D46 /* ArticleViewModel.swift */; };
+		04A2B6B922E5924700E95D46 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2B6B822E5924700E95D46 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		04A2B6AF22E5802600E95D46 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		04A2B6B222E5832500E95D46 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		04A2B6B522E58E2D00E95D46 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		04A2B6B822E5924700E95D46 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		04A2B69822E5789900E95D46 /* iOSNews */ = {
 			isa = PBXGroup;
 			children = (
+				04A2B6B722E5923000E95D46 /* Cells */,
 				04A2B6B422E58E0200E95D46 /* View Models */,
 				04A2B6B122E5831500E95D46 /* Models */,
 				04A2B6AE22E5800500E95D46 /* Services */,
@@ -106,6 +109,14 @@
 				04A2B6B522E58E2D00E95D46 /* ArticleViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		04A2B6B722E5923000E95D46 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04A2B6B822E5924700E95D46 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				04A2B6B022E5802600E95D46 /* WebService.swift in Sources */,
 				04A2B6B622E58E2D00E95D46 /* ArticleViewModel.swift in Sources */,
 				04A2B69A22E5789900E95D46 /* AppDelegate.swift in Sources */,
+				04A2B6B922E5924700E95D46 /* ArticleTableViewCell.swift in Sources */,
 				04A2B6B322E5832500E95D46 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
